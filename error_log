@@ -1,0 +1,8 @@
+[29-Jul-2022 07:03:05 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/smkg6671/public_html/perpustakaan/config.php on line 8
+[29-Jul-2022 07:05:30 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/smkg6671/public_html/perpustakaan/view/cpanel/page_default.php on line 93
+[29-Jul-2022 07:05:30 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/smkg6671/public_html/perpustakaan/view/cpanel/page_default.php on line 151
+[29-Jul-2022 07:05:30 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/smkg6671/public_html/perpustakaan/view/cpanel/page_default.php on line 209
+[29-Jul-2022 07:05:30 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/smkg6671/public_html/perpustakaan/view/umum/default_umum.php on line 23
+[29-Jul-2022 07:05:36 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/smkg6671/public_html/perpustakaan/view/umum/produktif.php on line 20
+[29-Jul-2022 07:05:37 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/smkg6671/public_html/perpustakaan/view/umum/non_produktif.php on line 20
+[29-Jul-2022 07:05:38 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/smkg6671/public_html/perpustakaan/view/umum/umum.php on line 20
