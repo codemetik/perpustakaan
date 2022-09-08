@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/smkg6671/public_html/perpustakaan/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
