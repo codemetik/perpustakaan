@@ -28,7 +28,7 @@ require_once('../../config.php');
                 <tr>
                     <td><?php echo $no++; ?></td>
                     <td>
-                    <?php echo "<img src='../../dist/cover/".$data['img']."' width='100' height='100'>" ?>
+                    <?php echo "<img src='dist/cover/".$data['img']."' width='100' height='100'>"; ?>
                     </td>
                     <td><?php echo $data['judul']; ?></td>
                     <td><?php echo $data['pengarang']; ?></td>

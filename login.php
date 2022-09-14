@@ -22,7 +22,7 @@ include "config.php";
 <body class="hold-transition login-page" id="bgroun">
 <div class="login-box">
   <div class="login-logo">
-    <a href="index2.html"><b>C</b>panel</a>
+    <a href="index2.html"><b>C</b>nel</a>
   </div>
   <!-- /.login-logo -->
   <div class="">
