@@ -200,11 +200,21 @@ use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#"><?= $_GET['page']; ?></a></li>
+              <li class="breadcrumb-item">
+                <a href="#">
+                  <?php 
+                if (empty($_GET['page'])) {
+                  echo "Dashboard";
+                }else{
+                  echo "Dashboard";
+                }
+                ?>
+                </a>
+              </li>
               <li class="breadcrumb-item active">
-                <?php 
-                if ($_GET['page'] == 'default') {
-                  echo "default";
+                <?php
+                if (empty($_GET['page'])) {
+                  echo "Home";
                 }else{
                   echo $_GET['page'];
                 }
