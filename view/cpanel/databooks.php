@@ -39,7 +39,7 @@
                         ?></td>
                         <td><?= $sqlbooks['jumlah'];?> buku</td>
                         <td><a href="?page=edit_databooks&books=<?= $sqlbooks['no_database']; ?>"><i class="fas fa-edit"></i></a>
-                        || <a href="view/cpanel/proses/delete_buku.php?id=<?= $sqlbooks['no_database']; ?>" onclick="return confirm('Data dengan Id : <?= $sqlbooks['no_database']; ?> akan dipindahkan ke sampah! Anda yakin?')"><i class="fas fa-trash-alt"></i></a>  
+                        || <a href="view/cpanel/proses/delete_buku.php?id=<?= $sqlbooks['no_database']; ?>" onclick="return confirm('Data dengan Id : <?= $sqlbooks['no_database']; ?> akan dipindahkan ke folder sampah! Anda yakin?')"><i class="fas fa-trash-alt"></i></a>  
                       </td>
                     </tr>
                   <?php }
